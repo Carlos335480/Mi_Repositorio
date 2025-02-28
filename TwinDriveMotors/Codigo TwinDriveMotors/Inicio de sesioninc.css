@@ -1,0 +1,29 @@
+.container_personalizado {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    max-width: 500px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.contenedor-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.boton-perso {
+    background-color:rgb(0, 21, 206);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius:10px;
+    padding: 10px 210px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+.boton-perso:hover {
+    background-color:rgb(0, 2, 110);
+    color: rgb(255, 255, 255);
+}
