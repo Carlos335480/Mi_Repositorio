@@ -1,0 +1,1 @@
+antes de usar el codigo tendras que descargar php mailer y configurar los datos de tu correo en registrar
