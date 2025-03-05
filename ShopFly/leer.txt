@@ -1,0 +1,1 @@
+Antes de usar el proyecto necesitaras tener descargado php mailer para poder usarlo
