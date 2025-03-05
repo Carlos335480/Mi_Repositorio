@@ -37,7 +37,7 @@ export default function App() {
 
     const obtenerPuntosInteres = async ({ latitude, longitude }) => {
         try {
-            const API_KEY = "AIzaSyBCZQgSJSU7VNYy2vErunSfQG-YYMduIKo";
+            const API_KEY = "tu api key";
             const response = await fetch(
                 `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1500&type=restaurant|tourist_attraction|park|museum&key=${API_KEY}`
             );
@@ -66,7 +66,7 @@ export default function App() {
 
     const verOpiniones = async (placeId) => {
         try {
-            const API_KEY = "AIzaSyBCZQgSJSU7VNYy2vErunSfQG-YYMduIKo";
+            const API_KEY = "Tu api key";
             const response = await fetch(
                 `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=reviews&language=es&key=${API_KEY}`
             );
@@ -112,7 +112,7 @@ export default function App() {
         }
 
         try {
-            const API_KEY = "AIzaSyBCZQgSJSU7VNYy2vErunSfQG-YYMduIKo"
+            const API_KEY = "Tu api key"
             const response = await fetch(
                 `https://maps.googleapis.com/maps/api/directions/json?origin=${location.latitude},${location.longitude}&destination=${destino.latitude},${destino.longitude}&mode=driving&key=${API_KEY}`
             );
