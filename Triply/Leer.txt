@@ -1,0 +1,1 @@
+En el codigo de App.js agrega tu api key en los apartados correspondientes
